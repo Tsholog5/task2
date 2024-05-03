@@ -14,7 +14,7 @@
     padding: 35px 12%;
     background-color: aquamarine(0, 0, 0, 0, 8);
     backdrop-filter: blur(10px);
-    display: flex
+    display: flex;
     justify-content: space-between;
     align-items: centre;
     z-index: 100;
@@ -27,8 +27,10 @@
 }
 .logo:hover{
     color: chocolate;
-    text-shadow: 0 0 25px;color: chocolate;
-                 0 0 50px;color:chocolate;
+    text-shadow: 0 0 25px;
+    color: chocolate;
+                 0 0 50px;
+                 color:chocolate;
     transform: scale(1.1);
 }
 span{
@@ -87,11 +89,10 @@ span{
     margin: 25px 0 30px;
 }
 .img-box img{
-    position:relative
-    width: 150px;
-    box-shadow: 0 0 25px pink;
+    position:relative;
+    box-shadow: 0 0 25px pink,
                 0 0 100px pink;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 mp4{
@@ -185,9 +186,18 @@ contact-form h2{
     margin: 1 rem 0;
     resize: none;
 }
+
+.Portfolio{
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    gap: 100px;
+    height: 100vh;
+}
+
 .footer{
     position:relative;
-    botton: 0;
+    bottom: 0;
     width: 100%;
     padding: 40px 0;
     background-color: pink;
@@ -200,8 +210,12 @@ contact-form h2{
     padding: 25px 12%;
     background-color: pink(0, 0, 0, 0, 8);
     backdrop-filter: blur(10px);
-    display: flex
+    display: flex;
     justify-content: space-between;
-    align-items: centre;
+    align-items: center;
     z-index: 100;
+}
+.footer .left{
+    display: flex;
+    flex-direction: column;
 }

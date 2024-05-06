@@ -28,7 +28,7 @@
 .logo:hover{
     color: chocolate;
     text-shadow: 0 0 25px;
-    color: chocolate;
+    color: chocolate,
                  0 0 50px;
     transform: scale(1.1);
 }
@@ -92,6 +92,7 @@ span{
     box-shadow: 0 0 25px pink,
                 0 0 100px pink;
     border-radius: 50px;
+    margin:0 0 0 100px;
 }
 
 mp4{
@@ -163,7 +164,6 @@ h6{
 }
 
 .contact-form form{
-    max-width: 50cm;
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 0 10px palevioletred;
@@ -171,7 +171,7 @@ h6{
     border-radius: 10px;
 }
 .contact-form form .input-box input,
-.contact-form form textarea{
+.contact-form textarea{
     padding: 10px 50px;
     font-size: 18px;
     color: palevioletred;
@@ -181,22 +181,21 @@ h6{
     resize: none;
     border: none;
 }
-form input:focus,
+input:focus,
 form textarea:focus{
     outline: none;
-    
 }
-:placeholder{
+::placeholder{
     text-align: center;
 }
 
 .Portfolio{
     display: flex;
     align-items: center;
-    padding: 15px 10%;
-    gap: 100px;
+    padding: 10px 10%;
     height: 100vh;
 }
+
 
 .footer{
     position:relative;
@@ -224,28 +223,29 @@ form textarea:focus{
 }
 .aboutMe{
     height: 100vh;
-    display: flex;
+    display:flex;
     align-items: center;
     background-color: pink;
+    padding: 10px 10%;
 }
 .information{
     display: flex;
     flex-direction: column;
-    padding: 10px 10%;
 }
 .information i{
     color: chocolate;
-    font-size: 20px;
+    font-size:20px
+    
 }
 .information p{
     padding: 10px 0;
 }
 .information .heading{
-    padding: 1opx 0;
+    padding: 10px 0;
 }
 .footer .navbar i{
     font-size: 30px;
 }
-.footer .navbar a{
+.footer .navbar a:hover{
     border-bottom: 0 transparent;
 }
